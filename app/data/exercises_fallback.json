@@ -1,0 +1,12 @@
+[
+  {"name":"Shadowboxing (3x3min)","muscle":"shoulders","type":"cardio","instructions":"Light footwork, head movement, 3x3min with 60s rest. Focus on form."},
+  {"name":"Heavy Bag — Power 6x2min","muscle":"chest","type":"strength","instructions":"2-min rounds focusing on straight shots and hooks. 60–90s rest."},
+  {"name":"Double-End Bag — Rhythm","muscle":"forearms","type":"cardio","instructions":"Timing and accuracy, 4x2min, light pace."},
+  {"name":"Defense Drill — Slip/Weave","muscle":"neck","type":"mobility","instructions":"Partner or rope: 3x2min continuous slips and weaves."},
+  {"name":"Jump Rope","muscle":"calves","type":"cardio","instructions":"5x2min rounds, vary foot patterns."},
+  {"name":"Medicine Ball Rotational Throws","muscle":"obliques","type":"strength","instructions":"4x8/side, rest 60–90s."},
+  {"name":"Plank Variations","muscle":"abdominals","type":"strength","instructions":"Front/side planks 3x30–45s each."},
+  {"name":"Squat Jumps","muscle":"quadriceps","type":"plyometric","instructions":"3x10, focus on soft landings."},
+  {"name":"Pull-ups or Band Rows","muscle":"lats","type":"strength","instructions":"3x5–10 strict reps."},
+  {"name":"Roadwork — Easy Run","muscle":"hamstrings","type":"cardio","instructions":"20–30 min, conversational pace."}
+]
