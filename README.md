@@ -102,7 +102,7 @@ GET	/api/v1/exercise?muscle={muscle}&difficulty={difficulty}	Search exercises by
 
 ---
 
-##Team Roles
+## Team Roles
 Name	Student ID	Role	Responsibility
 Thitiwut Sriamonrat	663380213-6	Developer / Project Lead	Backend API, Database, Deployment
 Natrapa Srivicha    663380504-5 Frontend Developer	UI Design, HTML/JS integration
