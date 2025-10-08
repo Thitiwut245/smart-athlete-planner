@@ -68,7 +68,7 @@ OAUTH_REDIRECT_URL=http://127.0.0.1:8000/auth/google/callback
 
 uvicorn app.main:app --reload
 
-
+```bash
 Then open browser and go to:
 👉 http://127.0.0.1:8000
 
