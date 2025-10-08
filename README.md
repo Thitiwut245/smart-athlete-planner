@@ -41,19 +41,19 @@ git clone https://github.com/Thitiwut245/smart-athlete-planner.git
 cd smart-athlete-planner
 
 2️⃣ Create and Activate Virtual Environment
-```bash
+
 python -m venv .venv
 source .venv/bin/activate        # macOS/Linux
 .venv\Scripts\activate           # Windows
 
 3️⃣ Install Dependencies
-```bash
+
 pip install -r requirements.txt
 
 4️⃣ Create .env File
 
 Create a .env file in the project root with the following keys:
- ```bash
+
 API_KEY=dev-secret-key
 DATABASE_URL=sqlite:///./smart.db
 EXERCISE_API_KEY=LRCporlwTPnN9h/C92ZRbQ==Evn4ZNUBGms12t4i
@@ -65,7 +65,7 @@ GOOGLE_CLIENT_SECRET=your-google-client-secret
 OAUTH_REDIRECT_URL=http://127.0.0.1:8000/auth/google/callback
 
 5️⃣ Run the Application
-```bash
+
 uvicorn app.main:app --reload
 
 
