@@ -67,31 +67,42 @@ OAUTH_REDIRECT_URL=http://127.0.0.1:8000/auth/google/callback
 5️⃣ Run the Application
 
 uvicorn app.main:app --reload
+```
 
-```bash```
 Then open browser and go to:
 👉 http://127.0.0.1:8000
 
-
- API Reference
+---
+## API Reference
 🔹 1. Athlete Management
+
 Method	Endpoint	Description
+
 GET	/api/v1/athletes	Retrieve all athletes
+
 POST	/api/v1/athletes	Create a new athlete
+
 DELETE	/api/v1/athletes/{id}	Delete athlete by ID
+
 🔹 2. Training Sessions
 Method	Endpoint	Description
+
 GET	/api/v1/sessions/athlete/{id}	Get all sessions for a specific athlete
+
 POST	/api/v1/sessions	Create a new training session
+
 DELETE	/api/v1/sessions/{id}	Delete session by ID
+
 🔹 3. Exercise Recommendations
 Method	Endpoint	Description
+
 GET	/api/v1/exercise/random	Get random exercise
+
 GET	/api/v1/exercise?muscle={muscle}&difficulty={difficulty}	Search exercises by muscle & difficulty
 
+---
 
-
-Team Roles
+##Team Roles
 Name	Student ID	Role	Responsibility
 Thitiwut Sriamonrat	663380213-6	Developer / Project Lead	Backend API, Database, Deployment
 Natrapa Srivicha    663380504-5 Frontend Developer	UI Design, HTML/JS integration
